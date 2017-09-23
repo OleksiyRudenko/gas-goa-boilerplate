@@ -1,0 +1,20 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "name":"GAS GOA boilerplate",
+  "short_name": "GASGOA",
+  "description":"Build your own standalone web application with Google OAuth enabled.",
+  "version": "1.0.0.1",
+  "manifest_version": 2,
+  "api_console_project_id": "315732288425",
+  "container": ["DOMAIN_INSTALLABLE", "GOOGLE_DRIVE"],
+  "app": {
+    "urls":
+    ["https://github.com/OleksiyRudenko/gas-goa-boilerplate"],
+    "launch":
+    {"web_url":"https://script.google.com/macros/s/AKfycbxD6DR4ToFzGUU-YCHxj28RKl-8Qc1rGsVWSjBBJW_CNHe5ghM/exec"}
+  },
+  "icons": {
+    "128": "ico-112x-in128x.png",
+    "16" : "ico-16x.png"
+  }
+}
