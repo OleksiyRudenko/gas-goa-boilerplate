@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- use async loading
+  https://developers.google.com/apps-script/guides/html/best-practices
+  -->
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <script src="https://apis.google.com/js/api.js?onload=onApiLoad"></script>
+</head>
+<body>
+    <H1>Congrats!</H1>
+    <p>Application is being initialized.</p>
+    <pre><?= JSON.stringify(vm.debug,null,4) ?></pre>
+</body>
+</html>
