@@ -1,7 +1,7 @@
 var AUTH = {
   runOneOff    : true,
-  clientId     : '315732288425-sskjd0rth7uvidmiv6d1lv0fl3bjru0j.apps.googleusercontent.com',
-  clientSecret : 'szSQH9z5pMQTw7TYpvuCVFfu',
+  clientId     : '315732288425-l2nt223962bkmfcdlvdshrvoq489agcs.apps.googleusercontent.com',
+  clientSecret : 'X7PaH1QhOYqTC5Ak8sFNp6RZ',
   packageName  : 'gas_goa_boilerplate',
   service      : 'google',
   scopes       : [
