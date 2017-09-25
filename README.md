@@ -73,6 +73,27 @@ by Bruce Mcpherson.
    
 ### Publication for testers
 
+#### GAS IDE
+1. Publish > Register in Chrome Web Store
+
+#### DEV CON
+1. Credentials >
+   * Apps Script: use GAS-EXEC URL to complete Authorised JavaScript origins
+   * OAuth consent screen: complete mandatory fields
+1. Dashboard >
+   * Google Drive API > Drive UI Integration:
+     - complete Application Name and Description
+     - complete Application icons
+     - Open URL = GAS EXEC
+     - Secondary File Extensions = `pdf` and any other at your discretion
+       (later you may complete other fields for MIME Types and Extensions)
+     - **Save Changes**
+   * Google Apps Marketplace SDK > Configuration:
+     - tick 'Allow individual install' and 'Drive extension'
+     - complete fields using icons (see `assets/` for e.g.)
+
+#### [CWS](https://chrome.google.com/webstore/developer/dashboard?authuser=0)
+
 ### Development cycle
 > It is recommended to follow a git-flow methodology/guidelines
 > while developing any app.
